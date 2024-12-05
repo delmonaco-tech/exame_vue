@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>Listagem de Itens</h1>
+    <h1>Listagem de Itens VUE.</h1>
 
     <button @click="view = 'form'">Cadastro</button>
     <button @click="view = 'list'">Listagem</button>
