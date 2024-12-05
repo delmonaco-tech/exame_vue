@@ -2,8 +2,8 @@
   <div id="app">
     <h1>Listagem de Itens VUE.</h1>
 
-    <button @click="view = 'form'">Cadastro</button>
-    <button @click="view = 'list'">Listagem</button>
+    <button @click="view = 'form'">Cadastros</button>
+    <button @click="view = 'list'">Listagens</button>
 
     <div v-if="view === 'form'">
       <h2>Cadastre o item</h2>
